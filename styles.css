@@ -1,0 +1,163 @@
+body{
+box-sizing: border-box; 
+}
+
+h1{
+position: relative;
+text-align: center;
+color: blue;
+font-size:2.5em;
+
+}
+
+section p {	
+	height: 80px;
+	font-family: sans-serif;
+	color: white;
+	padding-top:35px;
+	text-align: center;
+	display: fixed;
+	
+}
+
+#chicken-menu{
+	position: relative;
+	background-color: grey;	
+	outline: solid;
+	margin-left: auto;
+	margin-right:auto;
+	width: 80%;
+	}
+
+.chicken-section-title{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width:20%;
+	height: 20px;
+	background-color: sandybrown;
+	border: 2px solid black;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#beef-menu{
+	position: relative;
+	background-color: seagreen;	
+	outline: solid;
+	margin-left: auto;
+	margin-right:auto;
+	width: 80%;
+	}
+
+.beef-section-title{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width:20%;
+	height: 20px;
+	background-color: grey;
+	border: 2px solid black;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#sushi-menu{
+	position: relative;
+	background-color: orange;	
+	outline: solid;
+	margin-left: auto;
+	margin-right:auto;
+	width: 80%;
+	}
+
+.sushi-section-title{
+	position: absolute;
+	top:0px;
+	right:0px;
+	width:20%;
+	height: 20px;
+	background-color: green;
+	border: 2px solid black;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+/******Large Device******/
+@media (min-width: 992px) {
+	#chicken-menu{
+		position: relative;
+		width: 31.33%;
+		margin-left:10px;
+		}
+
+	
+	#beef-menu{
+		position: relative;
+		width: 31.33%;
+		margin-top: -130px;
+		}
+	
+
+	#sushi-menu{
+		position: relative;
+		width: 31.33%;
+		margin-right: 10px;
+		margin-top:-130px;
+		}
+
+	
+
+}
+
+/******Medium Device******/
+@media (min-width: 768px) and (max-width:991px){
+	#chicken-menu{
+		margin-left: 25px;
+		margin-right: 0;
+		width: 45.5%;
+		
+	}
+	
+	#beef-menu{
+		width: 45.5%;
+		background-color: seagreen;
+		outline: solid;
+		margin-right: 24px;
+		margin-top:-130px;
+	}
+	#sushi-menu{
+		width: 95%;
+		background-color: orange;
+		outline: solid;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.sushi-section-title{
+		width: 10%;
+
+	}
+}
+
+
+/******Extra Small Device******/
+@media (max-width: 767px){
+	#chicken-menu{
+		width: 90%;
+	}
+	#beef-menu {
+		width: 90%;
+	}
+	#sushi-menu{
+		width: 90%;
+	}
+	
+}
+
+
